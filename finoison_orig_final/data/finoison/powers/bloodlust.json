@@ -1,7 +1,7 @@
 {
   "type": "origins:entity_action_on_kill",
   "name": "Bloodlust",
-  "description": "You hunger for the blood of those who have betrayed you.",
+  "description": "You hunger for the blood of your betrayers.",
   "badges": [
     {
       "type": "origins:tooltip",
