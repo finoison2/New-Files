@@ -1,5 +1,5 @@
-﻿{
-  "type": "origins:passive",
+{
+  "type": "origins:entity_action_on_kill",
   "name": "Bloodlust",
   "description": "You hunger for the blood of those who have betrayed you.",
   "badges": [
@@ -8,5 +8,9 @@
       "sprite": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
       "text": "On kill: heal 1 hunger bar and 1 heart."
     }
-  ]
+  ],
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "effect give @s minecraft:saturation 2 4"
+  }
 }
