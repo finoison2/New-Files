@@ -9,8 +9,14 @@
       "text": "On kill: heal 1 hunger bar and 1 heart."
     }
   ],
-  "entity_action": {
-    "type": "origins:execute_command",
-    "command": "effect give @s minecraft:saturation 2 4"
-  }
+  "entity_action": [
+    {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:hunger 1 0"
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:instant_health 1 1"
+    }
+  ]
 }
