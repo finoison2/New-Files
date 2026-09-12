@@ -1,0 +1,69 @@
+{
+  "type": "origins:active_self",
+  "name": "Unstable Body",
+  "description": "Your body holds no boundaries, being able to reach both it's maximum power, and its minimum, if disturbed even slightly.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      { "type": "origins:execute_command", "command": "effect clear @s", "permission_level": 4 },
+      {
+        "type": "origins:choice",
+        "actions": [
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:speed 30 0 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:strength 30 1 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:slowness 30 2 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:regeneration 30 0 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:poison 30 1 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:jump_boost 30 2 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:absorption 30 1 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:blindness 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:conduit_power 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:darkness 30 1 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:dolphins_grace 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:fire_resistance 30 0 true", "permission_level": 4 } }
+        ]
+      },
+      {
+        "type": "origins:choice",
+        "actions": [
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:haste 30 0 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:resistance 30 1 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:mining_fatigue 30 2 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:fire_resistance 30 0 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:weakness 30 1 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:levitation 30 2 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:glowing 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:haste 30 1 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:invisibility 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:instant_health 1 1 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:instant_damage 1 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:hero_of_the_village 30 0 true", "permission_level": 4 } }
+        ]
+      },
+      {
+        "type": "origins:choice",
+        "actions": [
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:night_vision 30 0 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:absorption 30 1 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:blindness 30 2 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:water_breathing 30 0 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:hunger 30 1 true", "permission_level": 4 } },
+          { "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:darkness 30 2 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:hunger 30 2 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:invisibility 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:night_vision 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:resistance 30 2 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:water_breathing 30 0 true", "permission_level": 4 } }
+          ,{ "weight": 1, "element": { "type": "origins:execute_command", "command": "effect give @s minecraft:wither 30 1 true", "permission_level": 4 } }
+        ]
+      }
+    ]
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 7
+  },
+  "key": { "key": "key.origins.secondary_active" }
+}

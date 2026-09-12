@@ -1,0 +1,7 @@
+{
+  "type": "origins:entity_action_on_kill",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "effect give @s minecraft:saturation 2 4"
+  }
+}

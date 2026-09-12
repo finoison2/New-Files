@@ -1,0 +1,12 @@
+﻿{
+  "type": "origins:passive",
+  "name": "Bloodlust",
+  "description": "You hunger for the blood of those who have betrayed you.",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+      "text": "On kill: heal 1 hunger bar and 1 heart."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "icon": "minecraft:structure_block",
+  "order": 0,
+  "impact": 2,
+  "name": "Finoison",
+  "description": "You don't belong, and you never will.",
+  "powers": [
+    "finoison:spectral_switch",
+    "finoison:sacrificial_bounty",
+    "finoison:sacrificial_bounty_entity",
+    "finoison:cursed_cure",
+    "finoison:cursed_cure_overlay",
+    "finoison:unstable_body",
+    "finoison:unstable_body_damage",
+    "finoison:bloodlust"
+  ]
+}

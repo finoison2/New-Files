@@ -1,0 +1,46 @@
+{
+  "type": "origins:active_self",
+  "name": "Spectral Switch",
+  "description": "Leave your body, and use any momentum gained in the form to perform a dash afterward.",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if entity @s[tag=finoison_perspective]",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "function finoison:perspective_exit",
+      "permission_level": 4
+    },
+    "else_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "function finoison:perspective_enter",
+          "permission_level": 4
+        },
+        {
+          "type": "origins:raycast",
+          "distance": 64,
+          "block": false,
+          "entity": true,
+          "shape_type": "visual",
+          "fluid_handling": "any",
+          "entity_action": {
+            "type": "origins:execute_command",
+            "command": "spectate @e[sort=nearest,limit=1,distance=..2]",
+            "permission_level": 4
+          }
+        }
+      ]
+    }
+  },
+  "cooldown": 10,
+  "key": {
+    "key": "key.origins.primary_active"
+  }
+}

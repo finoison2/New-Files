@@ -1,0 +1,18 @@
+{
+  "type": "origins:prevent_death",
+  "name": "Sacrifical Bounty",
+  "description": "The hunter becomes the hunted.",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:entity_type",
+      "entity_type": "minecraft:player"
+    }
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function finoison:sacrificial_bounty",
+    "permission_level": 4
+  },
+  "cooldown": 2
+}
