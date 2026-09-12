@@ -1,0 +1,14 @@
+{
+  "type": "origins:active_self",
+  "name": "Kill Reward",
+  "description": "Gain 1 hunger bar and 1 heart when you kill an entity",
+  "key": "key.attack",
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "effect give @s minecraft:hunger 1 0"
+  }
+}
