@@ -2,21 +2,9 @@
   "type": "origins:entity_action_on_kill",
   "name": "Bloodlust",
   "description": "You hunger for the blood of your betrayers.",
-  "badges": [
-    {
-      "type": "origins:tooltip",
-      "sprite": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-      "text": "On kill: heal 1 hunger bar and 1 heart."
-    }
-  ],
-  "entity_action": [
-    {
-      "type": "origins:execute_command",
-      "command": "effect give @s minecraft:hunger 1 0"
-    },
-    {
-      "type": "origins:execute_command",
-      "command": "effect give @s minecraft:instant_health 1 1"
-    }
-  ]
+  "hidden": false,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "effect give @s minecraft:absorption 1 0 true"
+  }
 }
